@@ -1,4 +1,16 @@
+function Auth(authService){
+    this.authService = authService
 
+    this.signInWithFacebook = (phone,password) =>{
+         const returnObjectv={
+        name : 'Weera' ,
+        facebookId : '863852741',
+        email : 'wkasersin@gmail.com'
+    }
+    return returnObjectjest
+        
+    }
+}
 
 test('Mock with 1 should return 1' , () => {
     const mockFn = jest.fn(1) // รับพารามิเตอร์แล้วคืนค่ากลับไป สมมุติส่ง 1 return 1
